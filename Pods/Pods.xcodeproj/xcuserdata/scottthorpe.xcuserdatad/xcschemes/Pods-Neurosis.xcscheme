@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0D200EA216D114CA638661CB9946155F"
-               BuildableName = "Pods_Neuron.framework"
-               BlueprintName = "Pods-Neuron"
+               BlueprintIdentifier = "96BCC60E1CB0ED2EDFFFAEF79FF32D2E"
+               BuildableName = "Pods_Neurosis.framework"
+               BlueprintName = "Pods-Neurosis"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0D200EA216D114CA638661CB9946155F"
-            BuildableName = "Pods_Neuron.framework"
-            BlueprintName = "Pods-Neuron"
+            BlueprintIdentifier = "96BCC60E1CB0ED2EDFFFAEF79FF32D2E"
+            BuildableName = "Pods_Neurosis.framework"
+            BlueprintName = "Pods-Neurosis"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A51683751FFEEE5200FA9695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51683741FFEEE5200FA9695 /* AppDelegate.swift */; };
-		A51683771FFEEE5200FA9695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51683761FFEEE5200FA9695 /* ViewController.swift */; };
-		A51683791FFEEE5200FA9695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51683781FFEEE5200FA9695 /* Assets.xcassets */; };
-		A516837C1FFEEE5200FA9695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A516837A1FFEEE5200FA9695 /* Main.storyboard */; };
+		064AC7E3FE43FD3A2384C7AA /* Pods_Neurosis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44DE599E754F6E8D4EBCC62 /* Pods_Neurosis.framework */; };
 		A51683881FFEEE5300FA9695 /* NeurosisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51683871FFEEE5300FA9695 /* NeurosisTests.swift */; };
 		A51683931FFEEE5300FA9695 /* NeurosisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51683921FFEEE5300FA9695 /* NeurosisUITests.swift */; };
-		DA2F8E95449A962D0132689B /* Pods_Neuron.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E426E037683DB3BCAED3ED9C /* Pods_Neuron.framework */; };
+		A5BCCDE8200978E0007179E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BCCDD9200978DF007179E8 /* AppDelegate.swift */; };
+		A5BCCDE9200978E0007179E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BCCDDA200978DF007179E8 /* Assets.xcassets */; };
+		A5BCCDEA200978E0007179E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BCCDDB200978DF007179E8 /* Main.storyboard */; };
+		A5BCCDEB200978E0007179E8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BCCDDD200978DF007179E8 /* Info.plist */; };
+		A5BCCDF1200978E0007179E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BCCDE7200978DF007179E8 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,21 +36,24 @@
 
 /* Begin PBXFileReference section */
 		331EA2B9601DCEF6828C674B /* Pods-Neuron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neuron.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Neuron/Pods-Neuron.debug.xcconfig"; sourceTree = "<group>"; };
+		42346F556071B8A07593F335 /* Pods-Neurosis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neurosis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Neurosis/Pods-Neurosis.release.xcconfig"; sourceTree = "<group>"; };
 		A51683711FFEEE5200FA9695 /* Neurosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neurosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A51683741FFEEE5200FA9695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A51683761FFEEE5200FA9695 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A51683781FFEEE5200FA9695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A516837B1FFEEE5200FA9695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A516837D1FFEEE5200FA9695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A516837E1FFEEE5200FA9695 /* Neuron.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neuron.entitlements; sourceTree = "<group>"; };
 		A51683831FFEEE5300FA9695 /* NeurosisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeurosisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51683871FFEEE5300FA9695 /* NeurosisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurosisTests.swift; sourceTree = "<group>"; };
 		A51683891FFEEE5300FA9695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A516838E1FFEEE5300FA9695 /* NeurosisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeurosisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51683921FFEEE5300FA9695 /* NeurosisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurosisUITests.swift; sourceTree = "<group>"; };
 		A51683941FFEEE5300FA9695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BCCDD9200978DF007179E8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5BCCDDA200978DF007179E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5BCCDDC200978DF007179E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5BCCDDD200978DF007179E8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BCCDE6200978DF007179E8 /* Neuron.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Neuron.entitlements; sourceTree = "<group>"; };
+		A5BCCDE7200978DF007179E8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D27572063923BEE0C43CA86B /* Pods-Neuron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neuron.release.xcconfig"; path = "Pods/Target Support Files/Pods-Neuron/Pods-Neuron.release.xcconfig"; sourceTree = "<group>"; };
+		D58567E8C3AA8280A26EF0C5 /* Pods-Neurosis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neurosis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Neurosis/Pods-Neurosis.debug.xcconfig"; sourceTree = "<group>"; };
 		E426E037683DB3BCAED3ED9C /* Pods_Neuron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neuron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44DE599E754F6E8D4EBCC62 /* Pods_Neurosis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neurosis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2F8E95449A962D0132689B /* Pods_Neuron.framework in Frameworks */,
+				064AC7E3FE43FD3A2384C7AA /* Pods_Neurosis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +85,7 @@
 		A51683681FFEEE5200FA9695 = {
 			isa = PBXGroup;
 			children = (
-				A51683731FFEEE5200FA9695 /* Neuron */,
+				A5BCCDD8200978DF007179E8 /* Neurosis */,
 				A51683861FFEEE5300FA9695 /* NeurosisTests */,
 				A51683911FFEEE5300FA9695 /* NeurosisUITests */,
 				A51683721FFEEE5200FA9695 /* Products */,
@@ -98,19 +102,6 @@
 				A516838E1FFEEE5300FA9695 /* NeurosisUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A51683731FFEEE5200FA9695 /* Neuron */ = {
-			isa = PBXGroup;
-			children = (
-				A51683741FFEEE5200FA9695 /* AppDelegate.swift */,
-				A51683761FFEEE5200FA9695 /* ViewController.swift */,
-				A51683781FFEEE5200FA9695 /* Assets.xcassets */,
-				A516837A1FFEEE5200FA9695 /* Main.storyboard */,
-				A516837D1FFEEE5200FA9695 /* Info.plist */,
-				A516837E1FFEEE5200FA9695 /* Neuron.entitlements */,
-			);
-			path = Neuron;
 			sourceTree = "<group>";
 		};
 		A51683861FFEEE5300FA9695 /* NeurosisTests */ = {
@@ -131,11 +122,26 @@
 			path = NeurosisUITests;
 			sourceTree = "<group>";
 		};
+		A5BCCDD8200978DF007179E8 /* Neurosis */ = {
+			isa = PBXGroup;
+			children = (
+				A5BCCDD9200978DF007179E8 /* AppDelegate.swift */,
+				A5BCCDDA200978DF007179E8 /* Assets.xcassets */,
+				A5BCCDDB200978DF007179E8 /* Main.storyboard */,
+				A5BCCDDD200978DF007179E8 /* Info.plist */,
+				A5BCCDE6200978DF007179E8 /* Neuron.entitlements */,
+				A5BCCDE7200978DF007179E8 /* ViewController.swift */,
+			);
+			path = Neurosis;
+			sourceTree = "<group>";
+		};
 		B9AC8BB0CBE8FE6B61248F86 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				331EA2B9601DCEF6828C674B /* Pods-Neuron.debug.xcconfig */,
 				D27572063923BEE0C43CA86B /* Pods-Neuron.release.xcconfig */,
+				D58567E8C3AA8280A26EF0C5 /* Pods-Neurosis.debug.xcconfig */,
+				42346F556071B8A07593F335 /* Pods-Neurosis.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -144,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				E426E037683DB3BCAED3ED9C /* Pods_Neuron.framework */,
+				F44DE599E754F6E8D4EBCC62 /* Pods_Neurosis.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -258,8 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A51683791FFEEE5200FA9695 /* Assets.xcassets in Resources */,
-				A516837C1FFEEE5200FA9695 /* Main.storyboard in Resources */,
+				A5BCCDE9200978E0007179E8 /* Assets.xcassets in Resources */,
+				A5BCCDEA200978E0007179E8 /* Main.storyboard in Resources */,
+				A5BCCDEB200978E0007179E8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +294,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Neuron/Pods-Neuron-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Neurosis/Pods-Neurosis-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/macOSThemeKit/macOSThemeKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -295,7 +303,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Neuron/Pods-Neuron-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Neurosis/Pods-Neurosis-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		330F334E1089A667E37F7409 /* [CP] Copy Pods Resources */ = {
@@ -310,7 +318,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Neuron/Pods-Neuron-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Neurosis/Pods-Neurosis-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD806D6347A92A28CCFDAE54 /* [CP] Check Pods Manifest.lock */ = {
@@ -324,7 +332,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Neuron-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Neurosis-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -338,8 +346,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A51683771FFEEE5200FA9695 /* ViewController.swift in Sources */,
-				A51683751FFEEE5200FA9695 /* AppDelegate.swift in Sources */,
+				A5BCCDF1200978E0007179E8 /* ViewController.swift in Sources */,
+				A5BCCDE8200978E0007179E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,10 +383,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A516837A1FFEEE5200FA9695 /* Main.storyboard */ = {
+		A5BCCDDB200978DF007179E8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A516837B1FFEEE5200FA9695 /* Base */,
+				A5BCCDDC200978DF007179E8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -494,13 +502,14 @@
 		};
 		A51683981FFEEE5300FA9695 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 331EA2B9601DCEF6828C674B /* Pods-Neuron.debug.xcconfig */;
+			baseConfigurationReference = D58567E8C3AA8280A26EF0C5 /* Pods-Neurosis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Neuron/Neuron.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Neurosis/Neuron.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Neuron/Info.plist;
+				DEVELOPMENT_TEAM = F33L79KDPX;
+				INFOPLIST_FILE = Neurosis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = devTest.Neurosis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,13 +519,14 @@
 		};
 		A51683991FFEEE5300FA9695 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D27572063923BEE0C43CA86B /* Pods-Neuron.release.xcconfig */;
+			baseConfigurationReference = 42346F556071B8A07593F335 /* Pods-Neurosis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Neuron/Neuron.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Neurosis/Neuron.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Neuron/Info.plist;
+				DEVELOPMENT_TEAM = F33L79KDPX;
+				INFOPLIST_FILE = Neurosis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = devTest.Neurosis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,14 +570,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = NeuronUITests/Info.plist;
+				DEVELOPMENT_TEAM = F33L79KDPX;
+				INFOPLIST_FILE = NeurosisUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = devTest.NeuronUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = Neuron;
+				TEST_TARGET_NAME = Neurosis;
 			};
 			name = Debug;
 		};
@@ -575,14 +588,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = NeuronUITests/Info.plist;
+				DEVELOPMENT_TEAM = F33L79KDPX;
+				INFOPLIST_FILE = NeurosisUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = devTest.NeuronUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = Neuron;
+				TEST_TARGET_NAME = Neurosis;
 			};
 			name = Release;
 		};

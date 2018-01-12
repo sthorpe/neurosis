@@ -1,6 +1,6 @@
-project 'Neuron.xcodeproj'
+project 'Neurosis.xcodeproj'
 
 use_frameworks!
-target 'Neuron' do
+target 'Neurosis' do
     pod 'macOSThemeKit', '~> 1.1.0'
 end

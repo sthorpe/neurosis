@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Neuron
+//  Neurosis
 //
 //  Created by Scott Thorpe on 1/4/18.
 //  Copyright © 2018 Scott Thorpe. All rights reserved.

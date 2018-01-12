@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_NeuronVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_NeuronVersionString[];
+FOUNDATION_EXPORT double Pods_NeurosisVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_NeurosisVersionString[];
 
