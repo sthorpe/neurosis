@@ -13,7 +13,6 @@
 		A5BCCDE8200978E0007179E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BCCDD9200978DF007179E8 /* AppDelegate.swift */; };
 		A5BCCDE9200978E0007179E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BCCDDA200978DF007179E8 /* Assets.xcassets */; };
 		A5BCCDEA200978E0007179E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BCCDDB200978DF007179E8 /* Main.storyboard */; };
-		A5BCCDEB200978E0007179E8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BCCDDD200978DF007179E8 /* Info.plist */; };
 		A5BCCDF1200978E0007179E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BCCDE7200978DF007179E8 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -267,7 +266,6 @@
 			files = (
 				A5BCCDE9200978E0007179E8 /* Assets.xcassets in Resources */,
 				A5BCCDEA200978E0007179E8 /* Main.storyboard in Resources */,
-				A5BCCDEB200978E0007179E8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

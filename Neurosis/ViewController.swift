@@ -30,7 +30,41 @@ class ViewController: NSViewController {
         introImage.isHidden = false
         tableView.isHidden = true
     }
+    
+    // Nav
+    @IBAction func homeBtn(_ sender: Any) {
+        tableView.isHidden = false
+    }
 
+    @IBAction func chatBtn(_ sender: Any) {
+        tableView.isHidden = true
+    }
+    
+    @IBAction func libraryBtn(_ sender: Any) {
+        tableView.isHidden = true
+    }
+    
+    @IBAction func searchBtn(_ sender: Any) {
+        tableView.isHidden = true
+    }
+    
+    @IBAction func hotlistBtn(_ sender: Any) {
+        tableView.isHidden = true
+    }
+    
+    @IBAction func transferBtn(_ sender: Any) {
+        tableView.isHidden = true
+    }
+    
+    @IBAction func discoverBtn(_ sender: Any) {
+        tableView.isHidden = true
+    }
+    
+    @IBAction func helpBtn(_ sender: Any) {
+        tableView.isHidden = true
+    }
+    
+    
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.

@@ -397,6 +397,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="smallSystem"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="homeBtn:" target="XfG-lQ-9wD" id="YOI-uo-uYz"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hsD-h5-0on">
                                 <rect key="frame" x="108" y="410" width="79" height="28"/>
@@ -405,6 +408,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="smallSystem"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="chatBtn:" target="XfG-lQ-9wD" id="fLQ-gm-xBO"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="byR-34-b88">
                                 <rect key="frame" x="185" y="410" width="79" height="28"/>
@@ -413,6 +419,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="smallSystem"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="libraryBtn:" target="XfG-lQ-9wD" id="fS4-Gd-FKy"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="krL-Mf-iwR">
                                 <rect key="frame" x="262" y="410" width="79" height="28"/>
@@ -421,6 +430,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="smallSystem"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="searchBtn:" target="XfG-lQ-9wD" id="3X3-A7-BfC"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CWY-ue-cW0">
                                 <rect key="frame" x="339" y="410" width="79" height="28"/>
@@ -429,6 +441,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="smallSystem"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="hotlistBtn:" target="XfG-lQ-9wD" id="LSw-RY-pzv"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u0F-9N-XEz">
                                 <rect key="frame" x="416" y="410" width="79" height="28"/>
@@ -437,6 +452,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="smallSystem"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="transferBtn:" target="XfG-lQ-9wD" id="eTk-P0-lyy"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OGs-1J-5Kc">
                                 <rect key="frame" x="493" y="410" width="79" height="28"/>
@@ -445,6 +463,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="smallSystem"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="discoverBtn:" target="XfG-lQ-9wD" id="gbK-DL-awa"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vHF-Cn-bDA">
                                 <rect key="frame" x="570" y="410" width="79" height="28"/>
@@ -453,6 +474,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="smallSystem"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="helpBtn:" target="XfG-lQ-9wD" id="Iif-e6-oQV"/>
+                                </connections>
                             </button>
                             <scrollView hidden="YES" fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWC-wu-tRy">
                                 <rect key="frame" x="36" y="55" width="608" height="347"/>
@@ -764,9 +788,17 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="chatBtn" destination="hsD-h5-0on" id="p4i-4j-B4U"/>
+                        <outlet property="discoverBtn" destination="OGs-1J-5Kc" id="Kef-mr-xB2"/>
+                        <outlet property="helpBtn" destination="vHF-Cn-bDA" id="Tvx-R9-4QD"/>
+                        <outlet property="homeBtn" destination="d2q-dI-0q0" id="kke-sv-toD"/>
+                        <outlet property="hotlistBtn" destination="CWY-ue-cW0" id="QtZ-iR-R0T"/>
                         <outlet property="introImage" destination="eBq-Cb-iFb" id="OAR-vm-0qo"/>
+                        <outlet property="libraryBtn" destination="byR-34-b88" id="uPh-gq-MMq"/>
                         <outlet property="mainView" destination="m2S-Jp-Qdl" id="mU3-oy-i5H"/>
+                        <outlet property="searchBtn" destination="krL-Mf-iwR" id="Tre-QU-xDV"/>
                         <outlet property="tableView" destination="HWC-wu-tRy" id="Ukw-8d-FL4"/>
+                        <outlet property="transferBtn" destination="u0F-9N-XEz" id="XYf-fI-d39"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
